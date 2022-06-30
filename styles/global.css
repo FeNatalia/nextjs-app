@@ -1,3 +1,7 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.filter-pink {
+    filter: invert(42%) sepia(99%) saturate(3109%) hue-rotate(305deg) brightness(113%) contrast(91%);
+}

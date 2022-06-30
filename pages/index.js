@@ -47,14 +47,14 @@ const Index = ({ posts }) => {
           >
             <div className="shrink-0">
               <Image
-                className="h-12 w-12"
+                className="h-12 w-12 filter-pink"
                 src={profilePic}
                 alt="ChitChat Logo"
                 width={50}
                 height={50}
               />
             </div>
-            <div className="text-xl font-medium text-black hover:underline">
+            <div className="first-letter:capitalize text-xl font-medium text-black hover:underline">
               <Link href={`/post?id=${post.id}`} as={`/blog/${post.id}`}>
                 <a>{post.title}</a>
               </Link>
